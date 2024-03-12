@@ -1,11 +1,16 @@
 /* Custom properties */
 :root {
+    /* Setting color values that can be called in the rest of the code */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
+    /* Setting text font values that can be called in the rest of the code */
+    --font-family-base: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    --font-family-title: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
 }
 
 html {
@@ -14,6 +19,7 @@ html {
 
 body {
     color: var(--text-color);
+    font-family: var(--font-family-base);
 }
 
 a {
@@ -30,4 +36,8 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
+}
+
+.header {
+    font-family: var(--font-family-title);
 }
