@@ -6,7 +6,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-white);
+    --text-color: var(--color-black);
 
     /* Setting custom text font values that can be called in the rest of the code */
     --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
@@ -36,7 +36,7 @@
 
     /* Setting custom title properties */
     --section-title-margin: 0;
-    --section-title-color: var(--color-white);
+    --section-title-color: var(--color-black);
 
     /* Setting padding property */
     --section-padding: 5rem 0;
@@ -78,6 +78,12 @@ html {
     font-size: 62.5%;
 }
 
+html[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
+
 /* targetting the body section */
 body {
     color: var(--text-color);
@@ -85,7 +91,6 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    background-color: var(--color-black);
 }
 
 /* targetting the anchors containing hyperlinks */
