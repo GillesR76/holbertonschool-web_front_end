@@ -124,7 +124,7 @@ a:active {
 
 .nav > .nav-link {
     display: block;
-    padding: 50% auto 50% auto;
+    padding: 50% 0 50% 0;
     
 }
 
