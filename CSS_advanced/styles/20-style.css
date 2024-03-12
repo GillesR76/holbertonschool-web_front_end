@@ -224,7 +224,7 @@ ul.row {
 
 /* Create a row after each instance of the class row */
 .row::after {
-    content: none;
+    content: "";
     display: table;
     clear: both;
 }
