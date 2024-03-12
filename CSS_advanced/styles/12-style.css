@@ -36,7 +36,7 @@
 
     /* Setting custom title property */
     --section-title-margin: 0;
-    --section-title-color: var(var(--color-black));
+    --section-title-color: var(--color-black);
 }
 
 html {
@@ -74,6 +74,7 @@ a {
     text-align: var(--section-header-align);
 }
 
+/* targetting the section-title class */
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
