@@ -110,7 +110,7 @@ a:active {
 /* targetting the container class */
 .container {
     width: 960px;
-    margin: auto;
+    margin-block: auto;
 }
 
 /* Headings */
