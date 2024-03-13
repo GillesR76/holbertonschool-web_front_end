@@ -165,7 +165,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
     transition: var(--transition-duration);
-    transition-property: var(--button-hover-color), var(--button-hover-background);
+    transition-property: var(--button-hover-color) var(--button-hover-background);
 }
 
 .navbar-menu {
@@ -201,7 +201,7 @@ a:active {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition: all var(--transition-duration), var(--transition-cubic-bezier);
+    transition: all var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -413,7 +413,7 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: all var(--transition-duration), var(--transition-cubic-bezier);
+    transition: all var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
